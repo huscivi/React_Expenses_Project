@@ -11,7 +11,6 @@ const NewExpense = (props) => {
             id: Math.random().toString(),
         };
         props.onAddExpense(expenseData);
-        setIsEditing(false);
     };
 
     const startEditingHandler = () => {
